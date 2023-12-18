@@ -11,28 +11,28 @@
 //   }
 
 
-// const button = document.getElementById("#close");
+const button = document.getElementById("#close");
 
-// button.addEventListener("click", (e) => {
-//   button.classList.toggle("container");
+button.addEventListener("click", (e) => {
+  button.classList.toggle("container");
+});
+
+const btn = document.getElementById("#chat-now");
+
+btn.addEventListener("click", (e) => {
+    btn.classList.toggle("container");
+  });
+
+// const dialog = document.querySelector("dialog");
+// const showButton = document.querySelector("dialog + button");
+// const closeButton = document.querySelector("dialog button");
+
+
+// showButton.addEventListener("click", () => {
+//   dialog.showModal();
 // });
 
-// const btn = document.getElementById("#chat-now");
 
-// btn.addEventListener("click", (e) => {
-//     btn.classList.toggle("#form-wrapper");
-//   });
-
-const dialog = document.querySelector("dialog");
-const showButton = document.querySelector("dialog + button");
-const closeButton = document.querySelector("dialog button");
-
-
-showButton.addEventListener("click", () => {
-  dialog.showModal();
-});
-
-
-closeButton.addEventListener("click", () => {
-  dialog.close();
-});
+// closeButton.addEventListener("click", () => {
+//   dialog.close();
+// });

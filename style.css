@@ -110,9 +110,8 @@ h1 {
 
 
 h2 {
-    padding-left: 5.8em;
+    padding-left:0.2em;
     text-align: left;
-    margin-top: -6em;
     margin-bottom: 2em;
     font-size: large;
     font-weight: bold;
@@ -122,8 +121,44 @@ article {
     margin: 0.5em;
 }
 
-
  .house {
+    border-radius: 1.5em;
+    box-shadow: var(--house-article-shadow);
+    padding: 0.5em;
+    margin-bottom: 1em;
+ }
+ 
+ .img-house {
+    width: 288px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 1.5em;
+ }
+
+.info-house  {
+    list-style: none;
+    text-align: left;
+    padding-left: 0.5em;
+    margin-top: -17px;
+    margin-bottom: -2px;
+    padding-top: 0.2em;
+    
+}
+
+
+
+/* oude styling */
+
+/* h2 {
+    padding-left: 5.8em;
+    text-align: left;
+    margin-top: -6em;
+    margin-bottom: 2em;
+    font-size: large;
+    font-weight: bold;
+} */
+
+/* .house {
     border-radius: 1.5em;
     box-shadow: var(--house-article-shadow);
     padding: 0.5em;
@@ -145,8 +180,7 @@ article {
     margin-bottom: -1px;
     padding-top: 0.2em;
     
-}
-
+} */
 /* 
 dialog {
     background-color: white;
@@ -157,7 +191,6 @@ dialog {
     display: flex;
     flex-direction: column;
   } */
-
 
 
 #chat-now {
@@ -293,41 +326,81 @@ footer ul {
     padding: 10px;
 }
 
+
+h2 {
+    padding-left:0.2em;
+    text-align: left;
+    margin-bottom: 2em;
+    font-size: large;
+    font-weight: bold;
+}
+
+article {
+    margin: 0.5em;
+}
+
+ .house {
+    border-radius: 1.5em;
+    box-shadow: var(--house-article-shadow);
+    padding: 0.5em;
+    margin-bottom: 1em;
+ }
+ 
+ .img-house {
+    width: 288px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 1.5em;
+ }
+
+.info-house  {
+    list-style: none;
+    text-align: left;
+    padding-left: 0.5em;
+    margin-top: -17px;
+    margin-bottom: -2px;
+    padding-top: 0.2em;
+    
+}
+
+
+@media (min-width:375px) {
+
+    .img-house {
+        width: 342px;
+        height: 130px;
+    
+     }
+
+}
+
 /* mobiel large  */
 
 @media (min-width:425px) {
-   
-        
-        .house {
-            border-radius: 1.5em;
-            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-            padding: 0.5em;
-            margin-bottom: 0.5em;
-         }
 
-         article {
-            padding: 3px;
-         }
+
+          .img-house {
+            width: 393px;
+            height: 140px;
+         }  
         
-        
-         .info-house  {
+         /* .info-house  {
             list-style: none;
             text-align: left;
-            padding-left: 6.7em;
+            padding-left: 0.5em;
             margin-top: -17px;
-            margin-bottom: -1px;
+            margin-bottom: -2px;
             padding-top: 0.2em;
+            
         }
-
-
+      
         h2 {
-            padding-left: 5.9em;
+            padding-left:0.2em;
             text-align: left;
-            margin-top: -6em;
             margin-bottom: 2em;
             font-size: large;
-            font-weight: bold;
-        }
+            font-weight: bold; */
+        
 
         .logo {
             width: 100px;
@@ -340,12 +413,7 @@ footer ul {
             margin-left: 0.5rem;
             text-align: center;
         }
-/*         
-        .button {
-            display: flex;
-            justify-content:center;
-            align-items: center;
-        } */
+
 
         footer li {
             padding: 2px;
@@ -356,7 +424,9 @@ footer ul {
             padding: 10px;
          }
        
-} 
+        
+        
+}
 
 
 
@@ -376,13 +446,10 @@ footer ul {
        
     }
     
-    .house {
-        border-radius: 1.5em;
-        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-        padding: 0.5em;
-        margin-bottom: 0.5em;
+    .img-house {
         width: 350px;
-     }
+        height: 140px;
+     }  
 
      .logo {
         width: 100px;
@@ -431,6 +498,31 @@ footer ul {
         margin-left: 1em;
         /* padding: 3px;   */
     } 
+
+    .info-house  {
+        list-style: none;
+        text-align: left;
+        padding-left: 0.5em;
+        margin-top: -17px;
+        margin-bottom: -2px;
+        padding-top: 0.2em;
+        
+    }
+  
+    h2 {
+        padding-left:0.2em;
+        text-align: left;
+        margin-bottom: 2em;
+        font-size: large;
+        font-weight: bold;
+    } 
+
+    .img-house {
+        width: 335px;
+        /* height: 150px; */
+        object-fit: cover;
+        border-radius: 1.5em;
+     }
 
     .house {
         border-radius: 1.5em;
