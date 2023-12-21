@@ -656,8 +656,9 @@ article {
 
     footer li {
         padding-left: 17px;
+
     }
- 
+
 
 }
 
@@ -706,31 +707,16 @@ article {
 
 @media (min-width: 1750px) {
 
-    .nav-list {
-        padding-right: 362px;
-    }
-
-    nav {
-        padding-right: 45px;
-    }
-
     main {
-        gap: 0px 105px;
-        margin-left: 250px;
-        margin-right: 200px;
+        margin: -10px;
+        gap: 0px 400px;
+        background-color: pink;
     }
 
     #chat {
-        margin-left: 955px;
+        margin-left: 1050px;
     }
 
-   article {
-     margin-left: -5.2rem;
-     margin-left: -5.2rem;
-   }
-   
 
-   footer li {
-    padding-right: 75px;
-   }
+
 }
